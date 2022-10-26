@@ -1,7 +1,6 @@
 repos:
   - repo: https://github.com/vikkunair/precommit-hooks-test.git
-  
-    rev: v1.0.0
     hooks:
       - id : trailing-whitespace
       - id : autopep8
+      - id : pylint
